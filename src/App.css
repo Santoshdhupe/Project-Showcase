@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.nav-header {
+    background-color: #cbd5e1;
+    height: 15vh;
+    padding: 15px;
+    padding-left: 25px;
+}
+
+.website-logo {
+    height: 50px;
+    width: 150px;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    padding-left: 45px;
+}
+
+.select-input {
+    height: 32px;
+    width: 260px;
+    font-family: Roboto;
+    outline: none;
+}
+
+.list-item {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 2px 0px #475569;
+    border-radius: 10px;
+    height: 220px;
+    width: 22%;
+    margin: 10px;
+}
+
+.project-image {
+    height: 165px;
+    border-radius: 10px;
+    border-bottom: 0px;
+}
+
+.project-name {
+    font-family: Roboto;
+    text-align: center;
+    margin: 13px;
+    color: #475569;
+    font-weight: 500;
+}
+
+.projects-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+.loader-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.failure-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.failure-image {
+    height: 300px;
+}
+
+.failure-heading {
+    font-family: Roboto;
+    color:  #475569;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.failure-desc {
+    font-family: Roboto;
+    color:  #475569;
+    margin-bottom: 0px;
+}
+
+.retry-button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #328af2;
+    color: #ffffff;
+    border-radius: 5px;
+    font-family: Roboto;
+    height: 35px;
+    width: 80px;
+}
